@@ -1,0 +1,14 @@
+// EVEN NUMBERS UPTO RANGE
+#include <stdio.h>
+int main() {
+       int num,i;
+       printf("Prime number within:");
+       scanf("%d",&num);
+       for(i=2;i<=num;i+=2)
+       {
+           printf("%d\n",i);
+           i++;
+       }
+      
+       return 0;
+}
