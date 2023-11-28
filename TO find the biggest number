@@ -1,0 +1,20 @@
+// TO FIND BIGGEST NUMBER OUT OF THREE NUMBERS
+#include <stdio.h>
+int main() {
+       int F_N,S_N,T_N;
+       printf("Enter any three numbers;");
+       scanf("%d%d%d",&F_N,&S_N,&T_N);
+       if(F_N>S_N &&F_N>T_N)
+       {
+           printf("first number is greater");
+       }
+       else if(S_N>F_N&&S_N>T_N)
+       {
+           printf("second number is greater");
+       }
+       else
+       {
+           printf("third number is greater");
+       }
+       return 0;
+}
