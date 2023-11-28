@@ -1,0 +1,16 @@
+// TO FIND AREA AND PERIMETER OF THE RECTANGLE AND SQUARE
+/*AREA OF THE SQUARE=A**2;PERIMETER OF THE SQUARE=4A
+AREA OF THE RECTANGLE=WL;PERIMETER OF THE SQUARE=2(L+W)*/
+#include <stdio.h>
+int main() {
+       int a,area_square,perimeter_square,area_rectangle,perimeter_rectangle,l,w;
+       printf("Enter side of square   ");
+       printf("AND    Enter length and width of the rectangle:");
+       scanf("%d\n%d%d",&a,&l,&w);
+       area_square=a*a;
+       perimeter_square=4*a;
+       area_rectangle=w*l;
+       perimeter_rectangle=2*(l+w);
+       printf("area and perrimeter of square are %d and %d \n area and perimeter of rectangle are %d and % d:",area_square,area_square,area_rectangle,perimeter_rectangle);
+       return 0;
+}
