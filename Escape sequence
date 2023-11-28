@@ -1,8 +1,7 @@
 //ESCAPE OPERATORS
 
 #include <stdio.h>
-int
-main ()
+int main ()
 {
   /*ALEART OR BELL ESCAPE SEQUANCE (\a)- used to produce a sound */
   printf ("1.sound \a aleart\n");
