@@ -2,7 +2,7 @@
 #include <stdio.h>
 int main() {
        int num,i;
-       printf("Prime number within:");
+       printf("Even number within:");
        scanf("%d",&num);
        for(i=2;i<=num;i+=2)
        {
