@@ -1,0 +1,12 @@
+// MULTIPLICATION TABLES UPTO 20
+#include <stdio.h>
+int main() {
+       int num,i;
+       printf("Enter any number to multiply;");
+       scanf("%d",&num);
+       for(i==0;i<=20;i++)
+       {
+           printf("%d X %d = %d\n",i,num,i*num);
+       }
+       return 0;
+}
