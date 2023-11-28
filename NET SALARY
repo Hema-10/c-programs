@@ -1,0 +1,10 @@
+// NET SALARY OF EMPLOYEE
+#include <stdio.h>
+int main() {
+       int net_salary,gross_salary,salary_expense;
+       printf("Enter your gross salary,salary expense:");
+       scanf("%d%d",&gross_salary,&salary_expense);
+       net_salary=gross_salary-salary_expense;
+       printf("NET SALARY IS %d",net_salary);
+       return 0;
+}
