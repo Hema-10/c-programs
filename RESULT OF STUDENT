@@ -1,0 +1,56 @@
+// RESULT OF THE STUDENT
+#include <stdio.h>
+int main() {
+       int marks;
+       printf("Enter your marks:");
+       scanf("%d",&marks);
+       if(marks>97 && marks<100)
+       {
+           printf("A+");
+       }
+       else if (marks>93 && marks<96)
+       {
+           printf("A")
+       }
+       else if(marks>90 && marks<92)
+       {
+           printf("A-")
+       }
+       else if(marks>87 && marks<89)
+       {
+           printf("B+");
+       }
+       else if(marks>83 && marks<86)
+       {
+           printf("B");
+       }
+       else if(marks>80 && marks<82)
+       {
+           printf("B-");
+       }
+       else if(marks>77 && marks<79)
+       {
+           printf("C+");
+       }
+       else if(marks>73 && marks<76)
+       {
+            printf("C");
+       } 
+       else if(marks>70 && marks<72)
+       {
+           printf("C-");
+       } 
+       else if(marks>67 && marks<69)
+       {
+           printf("D+");
+       }
+       else if(marks>65 && marks<66)
+       {
+           printf("D");
+       }
+        else if(marks<65)
+       {
+           printf("E OR F");
+       }
+       return 0;
+}
